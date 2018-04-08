@@ -17,7 +17,8 @@
     "url": "https://github.com/NicolasNimetz/eslint-plugin-nnimetz/issues"
   },
   "scripts": {
-    "test": "mocha tests --recursive",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "lint": "eslint --ext .js lib tests"
   },
   "dependencies": {
@@ -30,10 +31,15 @@
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
-    "mocha": "3.1.2"
+    "jest": "^22.4.3"
   },
   "engines": {
     "node": ">=0.10.0"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/**/*.js"
+    ]
   },
   "license": "MIT"
 }

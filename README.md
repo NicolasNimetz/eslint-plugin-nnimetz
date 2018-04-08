@@ -1,4 +1,4 @@
-# eslint-plugin-nnimetz [![NPM version][npm-image]][npm-url] [![BuildStatus][travis-image]][travis-url] [![javascript style guide][standard-image]][standard-url]
+# eslint-plugin-nnimetz [![NPM version][npm-image]][npm-url] [![BuildStatus][travis-image]][travis-url] [![javascript style guide][standard-image]][standard-url] [![jest][jest-image]][jest-url]
 
 [npm-image]: https://img.shields.io/npm/v/eslint-plugin-nnimetz.svg?style=flat
 [npm-url]: https://www.npmjs.com/package/eslint-plugin-nnimetz
@@ -6,6 +6,8 @@
 [travis-url]: https://travis-ci.org/NicolasNimetz/eslint-plugin-nnimetz
 [standard-image]: https://img.shields.io/badge/code_style-standard-brightgreen.svg
 [standard-url]: https://standardjs.com
+[jest-image]: https://facebook.github.io/jest/img/jest-badge.svg
+[jest-url]: https://github.com/facebook/jest
 
 ESLint pluging by Nicolas Nimetz
 
@@ -18,6 +20,12 @@ $ npm i eslint --save-dev
 ```
 
 Next, install `eslint-plugin-nnimetz`:
+
+```
+$ yarn add eslint-plugin-nnimetz --dev
+```
+
+Or
 
 ```
 $ npm install eslint-plugin-nnimetz --save-dev
