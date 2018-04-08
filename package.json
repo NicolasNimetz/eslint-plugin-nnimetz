@@ -9,6 +9,13 @@
   ],
   "author": "Nicolas Nimetz",
   "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasNimetz/eslint-plugin-nnimetz"
+  },
+  "bugs": {
+    "url": "https://github.com/NicolasNimetz/eslint-plugin-nnimetz/issues"
+  },
   "scripts": {
     "test": "mocha tests --recursive",
     "lint": "eslint --ext .js lib tests"

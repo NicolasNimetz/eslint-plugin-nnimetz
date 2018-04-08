@@ -1,7 +1,10 @@
 {
-  "extends": "standard",
+  "extends": [
+    "standard",
+    "plugin:nnimetz/recommended"
+  ],
   "plugins": [
-    "standard"
+    "nnimetz"
   ],
   "rules": {}
 }
