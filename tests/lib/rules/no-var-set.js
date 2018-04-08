@@ -31,7 +31,7 @@ ruleTester.run('no-var-set', rule, {
     {
       code: 'var test=\'variable\'',
       errors: [{
-        message: 'Do not use var',
+        message: 'Use let or const to declare variables',
         type: 'VariableDeclaration'
       }]
     }

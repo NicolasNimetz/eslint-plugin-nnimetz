@@ -1,36 +1,20 @@
-# ... (no-full-fp-lib)
+## Do not import a full library
 
-Please describe the origin of the rule here.
+### Rule name: `no-full-fp-lib`
 
+Prefer importing single functions over a full FP library
 
 ## Rule Details
 
-This rule aims to...
-
 Examples of **incorrect** code for this rule:
 
-```js
-
-// fill me in
-
+```javascript
+import _ from 'lodash'
 ```
 
 Examples of **correct** code for this rule:
 
-```js
-
-// fill me in
-
+```javascript
+import $ from 'jquery'
+import { filter } from 'lodash'
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.

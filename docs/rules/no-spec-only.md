@@ -1,36 +1,24 @@
-# ... (no-spec-only)
+## Do not push only from tests
 
-Please describe the origin of the rule here.
+### Rule name: `no-spec-only`
+
+When we test a js functionality, we can use sometime .only. But when it is the time to push our work, we do not want commit this.
 
 
-## Rule Details
-
-This rule aims to...
+### Rule Details
 
 Examples of **incorrect** code for this rule:
 
-```js
-
-// fill me in
-
+```javascript
+describe.only('describe', () => { })
+context.only('context', () => { })
+it.only('it', () => { })
 ```
 
 Examples of **correct** code for this rule:
 
-```js
-
-// fill me in
-
+```javascript
+describe('describe', () => { })
+context('context', () => { })
+it('it', () => { })
 ```
-
-### Options
-
-If there are any options, describe them here. Otherwise, delete this section.
-
-## When Not To Use It
-
-Give a short description of when it would be appropriate to turn off this rule.
-
-## Further Reading
-
-If there are other links that describe the issue this rule addresses, please include them here in a bulleted list.

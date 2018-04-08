@@ -25,7 +25,7 @@ let ruleTester = new RuleTester()
 ruleTester.run('no-full-fp-lib', rule, {
   valid: [
     'import $ from \'jquery\'',
-    'import { filter } from \'lodash/fp\''
+    'import { filter } from \'lodash\''
   ],
   invalid: [
     {
